@@ -11,7 +11,7 @@ function amdWrap(content, file, conf) {
     }
 
     if (!/^\s*define\s*\(\s*/.test(content)) {
-        return 'define(function (require, exports, module) {\n'
+        return 'define(function (require, exports, module) {'
             + content + '\n});\n';
     }
 
