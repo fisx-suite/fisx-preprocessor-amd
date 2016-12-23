@@ -1,5 +1,8 @@
 fisx-preprocessor-amd
 ======
+
+[![Dependency Status](https://david-dm.org/wuhy/fisx-preprocessor-amd.svg)](https://david-dm.org/wuhy/fisx-preprocessor-amd) [![devDependency Status](https://david-dm.org/wuhy/fisx-preprocessor-amd/dev-status.svg)](https://david-dm.org/wuhy/fisx-preprocessor-amd#info=devDependencies) [![NPM Version](https://img.shields.io/npm/v/fisx-preprocessor-amd.svg?style=flat)](https://npmjs.org/package/fisx-preprocessor-amd)
+
 > A preprocessor to wrap module code using amd style. 
 
 ## How to use
