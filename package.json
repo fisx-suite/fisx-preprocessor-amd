@@ -3,7 +3,13 @@
   "version": "0.1.1",
   "description": "A preprocessor for fisx to wrap commonjs module using amd style",
   "main": "index.js",
-  "keywords": ["fisx","fis3","fis","amd","preprocessor"],
+  "keywords": [
+    "fisx",
+    "fis3",
+    "fis",
+    "amd",
+    "preprocessor"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +23,6 @@
   "author": "sparklewhy@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "amd-wrapper": "^0.1.0"
   }
 }
