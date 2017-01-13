@@ -1,6 +1,6 @@
 {
   "name": "fisx-preprocessor-amd",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A preprocessor for fisx to wrap commonjs module using amd style",
   "main": "index.js",
   "keywords": [
