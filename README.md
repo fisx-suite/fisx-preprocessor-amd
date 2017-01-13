@@ -25,3 +25,5 @@ fis.match('/src/**.js', {
 
 * disableWrap - `boolean` `optional`: if the processed file has disableWrap configure with `true`, the preprocessor will ignore this file
 
+* clearCssRequire - `boolean` `optional`: whether remove the css file require declaration, by default false
+
