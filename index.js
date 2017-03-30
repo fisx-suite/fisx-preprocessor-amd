@@ -28,7 +28,14 @@ function clearCssRequire(content, file) {
             }
 
             var styleUrl = url.parse(id);
-            var info = fis.project.lookup(styleUrl.pathname, file);
+            var stylePath = styleUrl.pathname;
+            var info = fis.project.lookup(stylePath, file);
+            if (!info.file && !/^\./.test(stylePath)) {
+                var depDir = fis.get('component.installDir');
+                stylePath = depDir + '/' + stylePath;
+                info = fis.project.lookup(stylePath);
+            }
+
             if (!info.file || !info.file.isCssLike) {
                 return match;
             }
